@@ -39,6 +39,8 @@ def run_inference(params):
             "getModels": ("GET", "/sdapi/v1/sd-models"),
             "getOptions": ("GET", "/sdapi/v1/options"),
             "setOptions": ("POST", "/sdapi/v1/options"),
+            "getLoras": ("GET", "/sdapi/v1/loras"),
+            "getSamplers": ("GET", "/sdapi/v1/samplers"),
         },
         "timeout": 600
     }
