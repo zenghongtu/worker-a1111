@@ -1,11 +1,13 @@
 name: CI | Update runpod package version
 
 on:
+  workflow_dispatch:
+
   repository_dispatch:
     types: [python-package-release]
 
-  push:
-    branches: ["main"]
+  # push:
+  #   branches: ["main"]
 
   workflow_dispatch:
 
